@@ -37,5 +37,19 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "java",     "1.1.0"
+github "java",     "1.1.2"
+github "skype",     "1.0.4"
+github "vagrant",     "2.0.10"
+github "virtualbox",     "1.0.5"
+github "intellij",     "1.3.0"
+github "chrome",     "1.1.1"
+github "wget",     "1.0.0"
+github "dropbox",     "1.1.1"
+github "osx",     "1.6.0"
+github "cyberduck",     "1.0.1"
+github "mou",     "1.1.3"
+github "googledrive",     "1.0.2"
+github "shortcat",     "1.0.5"
+github "aquamacs",     "1.1.1", :repo => "webdizz/puppet-aquamacs"
+
 
