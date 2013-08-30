@@ -83,11 +83,10 @@ node default {
       'gnu-tar'
     ]:
   }
-  package { 'nginx': ensure => absent }
-  package { 'nodejs': ensure => absent }
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
   }
+
 }

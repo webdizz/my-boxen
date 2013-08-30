@@ -29,6 +29,11 @@ GITHUBTARBALL
     dropbox (1.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-emacs
+  specs:
+    emacs (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (2.0.1)
@@ -124,6 +129,11 @@ GITHUBTARBALL
     xquartz (1.1.0)
 
 GITHUBTARBALL
+  remote: glarizza/puppet-property_list_key
+  specs:
+    property_list_key (0.1.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -146,6 +156,7 @@ DEPENDENCIES
   cyberduck (= 1.0.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.1)
+  emacs (= 1.1.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
   googledrive (= 1.0.2)
@@ -157,6 +168,7 @@ DEPENDENCIES
   mou (= 1.1.3)
   openssl (= 1.0.0)
   osx (= 1.6.0)
+  property_list_key (= 0.1.0)
   repository (= 2.2.0)
   ruby (= 6.3.4)
   shortcat (= 1.0.5)
