@@ -1,5 +1,4 @@
 class people::webdizz::applications {
-    require ruby
 
     include skype
     include vagrant
@@ -17,13 +16,4 @@ class people::webdizz::applications {
     package { 'tmux':
         ensure => installed,
     }
-
-    class { 'ruby::global':
-        version => '1.8.7'
-    }
-    ruby::gem { "teamocil":
-        gem     => 'teamocil',
-        ruby    => $version
-    }
-
 }
