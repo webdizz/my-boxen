@@ -12,6 +12,7 @@ class people::webdizz::applications {
     include googledrive
     include shortcat
     include emacs
+    include iterm2::stable
 
     package { 'tmux':
         ensure => installed,
