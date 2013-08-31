@@ -1,0 +1,8 @@
+.idea
+log/
+shared
+vendor
+.tmp
+.bundle
+.librarian
+*.iml
