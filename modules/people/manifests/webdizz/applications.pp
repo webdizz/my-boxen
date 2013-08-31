@@ -16,4 +16,6 @@ class people::webdizz::applications {
     package { 'tmux':
         ensure => installed,
     }
+
+    include people::webdizz::applications::vim
 }
