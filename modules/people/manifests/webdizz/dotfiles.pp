@@ -1,16 +1,10 @@
 class people::webdizz::dotfiles {
 
-  $home     = "/Users/${::boxen_user}"
-  $my       = "${home}/dev"
-  $dotfiles = "${my}/dotfiles"
-
-  file { $my:
-    ensure  => directory
-  }
+    $home = "/Users/${::boxen_user}"
+    $dotfiles = "${home}/dev/dotfiles"
 
   repository { $dotfiles:
-    source  => 'webdizz/dotfiles',
-    require => File[$my]
+    source  => 'webdizz/dotfiles'
   }
 
   file { "${home}/.tmux.conf":
