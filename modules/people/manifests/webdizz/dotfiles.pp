@@ -17,7 +17,7 @@ class people::webdizz::dotfiles {
   file { "${home}/.teamocil":
     ensure  => link,
     mode    => '0644',
-    target  => "${dotfiles}/teamocil",
+    target  => "${dotfiles}/.teamocil",
     require => Repository[$dotfiles],
   }
 
