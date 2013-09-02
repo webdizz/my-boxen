@@ -19,5 +19,6 @@ class people::webdizz::applications {
 
     include people::webdizz::applications::vim
     include people::webdizz::applications::emacs
+    include people::webdizz::applications::kdiff3
 
 }
