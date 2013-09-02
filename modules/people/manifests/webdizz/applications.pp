@@ -11,7 +11,6 @@ class people::webdizz::applications {
     include mou
     include googledrive
     include shortcat
-    include emacs
     include iterm2::stable
 
     package { 'tmux':
@@ -19,4 +18,6 @@ class people::webdizz::applications {
     }
 
     include people::webdizz::applications::vim
+    include people::webdizz::applications::emacs
+
 }
