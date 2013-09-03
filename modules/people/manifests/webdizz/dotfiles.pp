@@ -49,4 +49,25 @@ class people::webdizz::dotfiles {
     require => Repository[$dotfiles],
   }
 
+  file { "${home}/.emacs.d/prelude-modules.el":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/emacs/prelude-modules.el",
+    require => Repository[$dotfiles],
+  }
+
+  file { "${home}/.emacs.d/personal/packages.el":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/emacs/personal/packages.el",
+    require => Repository[$dotfiles],
+  }
+
+  file { "${home}/.emacs.d/personal/configuration.el":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/emacs/personal/configuration.el",
+    require => Repository[$dotfiles],
+  }
+
 }
