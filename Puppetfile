@@ -52,4 +52,5 @@ github "emacs",     "1.1.0"
 github "aquamacs",     "1.1.1", :repo => "webdizz/puppet-aquamacs"
 mod "property_list_key",  "0.1.0",   :github_tarball => "glarizza/puppet-property_list_key"
 github 'iterm2',   '1.0.3'
+github 'firefox',   '1.1.3'
 

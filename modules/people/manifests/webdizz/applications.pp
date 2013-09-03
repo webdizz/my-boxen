@@ -12,6 +12,7 @@ class people::webdizz::applications {
     include googledrive
     include shortcat
     include iterm2::stable
+    include firefox
 
     package { 'tmux':
         ensure => installed,
