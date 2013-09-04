@@ -10,7 +10,7 @@ class people::webdizz::dotfiles {
   file { "${home}/.tmux.conf":
     ensure  => link,
     mode    => '0644',
-    target  => "${dotfiles}/tmux.conf",
+    target  => "${dotfiles}/.tmux.conf",
     require => Repository[$dotfiles],
   }
 
