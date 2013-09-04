@@ -69,6 +69,38 @@ class people::webdizz::os::preferences {
         notify     => Exec['Restart the Dock'],
       }
 
+    property_list_key { 'Show remaining battery in %':
+        ensure     => present,
+        path       => "${home}/Library/Preferences/com.apple.menuextra.battery.plist",
+        key        => 'ShowPercent',
+        value      => 'YES',
+        value_type => 'string'
+    }
+
+    property_list_key { 'Disable the “Are you sure you want to open this application?” dialog':
+      ensure     => present,
+      path       => "${home}/Library/Preferences/com.apple.LaunchServices",
+      key        => 'LSQuarantine',
+      value      => false,
+      value_type => 'boolean'
+    }
+
+    property_list_key { 'Require password immediately after sleep or screen saver begins':
+      ensure     => present,
+      path       => "${home}/Library/Preferences/com.apple.screensaver",
+      key        => 'askForPassword',
+      value      => 1,
+      value_type => 'integer'
+    }
+
+    property_list_key { 'Require password immediately after sleep or screen saver begins with 0 delay':
+      ensure     => present,
+      path       => "${home}/Library/Preferences/com.apple.screensaver",
+      key        => 'askForPasswordDelay',
+      value      => 0,
+      value_type => 'integer'
+    }
+
     exec { 'Restart the Dock':
         command     => '/usr/bin/killall -HUP Dock',
         refreshonly => true,
