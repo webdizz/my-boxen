@@ -13,6 +13,7 @@ class people::webdizz::applications {
     include shortcat
     include iterm2::stable
     include firefox
+    include jmeter
 
     package { 'tmux':
         ensure => installed,
