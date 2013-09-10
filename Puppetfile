@@ -54,4 +54,6 @@ mod "property_list_key",  "0.1.0",   :github_tarball => "glarizza/puppet-propert
 github 'iterm2',   '1.0.3'
 github 'firefox',   '1.1.3'
 github 'jmeter',   '0.1.1'
+github 'zsh',   '1.0.0'
+github 'zshgitprompt',   '1.0.2'
 

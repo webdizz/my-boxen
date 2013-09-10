@@ -6,7 +6,7 @@ class people::webdizz::applications::emacs {
 
     exec { 'Install Emacs Prelude':
         command     => 'curl -L http://git.io/epre | sh',
-	    unless	=> "test -d ${home}/.emacs.d"
+        unless	=> "test -d ${home}/.emacs.d"
     }
 
 }

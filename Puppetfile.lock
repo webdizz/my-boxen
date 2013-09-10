@@ -144,6 +144,16 @@ GITHUBTARBALL
     xquartz (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zshgitprompt
+  specs:
+    zshgitprompt (1.0.2)
+
+GITHUBTARBALL
   remote: glarizza/puppet-property_list_key
   specs:
     property_list_key (0.1.0)
@@ -197,4 +207,6 @@ DEPENDENCIES
   virtualbox (= 1.0.5)
   wget (= 1.0.0)
   xquartz (= 1.1.0)
+  zsh (= 1.0.0)
+  zshgitprompt (= 1.0.2)
 

@@ -70,4 +70,47 @@ class people::webdizz::dotfiles {
     require => Repository[$dotfiles],
   }
 
+  # zsh
+  file { "${home}/.zshenv":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/zsh/zshenv",
+    require => Repository[$dotfiles],
+  }
+
+  file { "${home}/.zprofile":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/zsh/zprofile",
+    require => Repository[$dotfiles],
+  }
+
+  file { "${home}/.zshrc":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/zsh/zshrc",
+    require => Repository[$dotfiles],
+  }
+
+  file { "${home}/.zpreztorc":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/zsh/zpreztorc",
+    require => Repository[$dotfiles],
+  }
+
+  file { "${home}/.zlogin":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/zsh/zlogin",
+    require => Repository[$dotfiles],
+  }
+
+  file { "${home}/.zlogout":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/zsh/zlogout",
+    require => Repository[$dotfiles],
+  }
+
 }
