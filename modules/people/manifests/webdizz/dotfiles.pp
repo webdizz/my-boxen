@@ -1,7 +1,7 @@
 class people::webdizz::dotfiles {
 
-    $home = "/Users/${::boxen_user}"
-    $dotfiles = "${home}/dev/dotfiles"
+  $home = "/Users/${::boxen_user}"
+  $dotfiles = "${home}/dev/dotfiles"
 
   repository { $dotfiles:
     source  => 'webdizz/dotfiles'
