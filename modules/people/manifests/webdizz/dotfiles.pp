@@ -14,13 +14,6 @@ class people::webdizz::dotfiles {
     require => Repository[$dotfiles],
   }
 
-  file { "${home}/.teamocil":
-    ensure  => link,
-    mode    => '0644',
-    target  => "${dotfiles}/.teamocil",
-    require => Repository[$dotfiles],
-  }
-
   file { "${home}/.vimrc":
     ensure  => link,
     mode    => '0644',
