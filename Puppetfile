@@ -13,7 +13,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen",      "3.0.2"
+github "boxen",      "3.0.4"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -37,7 +37,7 @@ github "xquartz",    "1.1.0"
 
 github "java",     "1.1.2"
 github "skype",     "1.0.4"
-github "vagrant",     "2.0.11"
+github "vagrant",     "2.0.12"
 github "virtualbox",     "1.0.6"
 github "intellij",     "1.3.0"
 github "chrome",     "1.1.1"
@@ -49,11 +49,11 @@ github "mou",     "1.1.3"
 github "googledrive",     "1.0.2"
 github "shortcat",     "1.0.5"
 github "emacs",     "1.1.0"
-github "aquamacs",     "1.1.1", :repo => "webdizz/puppet-aquamacs"
 mod "property_list_key",  "0.1.0",   :github_tarball => "glarizza/puppet-property_list_key"
 github 'iterm2',   '1.0.3'
 github 'firefox',   '1.1.3'
 github 'jmeter',   '0.1.1'
 github 'zsh',   '1.0.0'
 github 'zshgitprompt',   '1.0.2'
+github 'vim',   '1.0.5'
 

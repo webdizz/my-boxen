@@ -6,7 +6,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.0.2)
+    boxen (3.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -126,12 +126,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (2.0.11)
+    vagrant (2.0.12)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.5)
+    virtualbox (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-wget
@@ -168,15 +173,9 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
-GITHUBTARBALL
-  remote: webdizz/puppet-aquamacs
-  specs:
-    aquamacs (1.1.1)
-
 DEPENDENCIES
-  aquamacs (= 1.1.1)
   autoconf (= 1.0.0)
-  boxen (= 3.0.2)
+  boxen (= 3.0.4)
   chrome (= 1.1.1)
   cyberduck (= 1.0.1)
   dnsmasq (= 1.0.0)
@@ -203,8 +202,9 @@ DEPENDENCIES
   skype (= 1.0.4)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  vagrant (= 2.0.11)
-  virtualbox (= 1.0.5)
+  vagrant (= 2.0.12)
+  vim (= 1.0.5)
+  virtualbox (= 1.0.6)
   wget (= 1.0.0)
   xquartz (= 1.1.0)
   zsh (= 1.0.0)
