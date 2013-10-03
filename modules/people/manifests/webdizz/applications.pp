@@ -3,7 +3,7 @@ class people::webdizz::applications {
   include skype
   include vagrant
   include virtualbox
-  include intellij
+  # include intellij
   include chrome
   include wget
   include dropbox
@@ -14,6 +14,12 @@ class people::webdizz::applications {
   include iterm2::stable
   include firefox
   include jmeter
+  include sequel_pro
+
+  class { 'intellij':
+    edition => 'ultimate',
+    version => '12.1.5'
+  }
 
   package { 'tmux':
     ensure => installed,
