@@ -36,7 +36,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "java",     "1.1.2"
-github "skype",     "1.0.4"
+github "skype",     "1.0.5"
 github "vagrant",     "2.0.12"
 github "virtualbox",     "1.0.6"
 github "intellij",     "1.3.0"
@@ -56,4 +56,5 @@ github 'jmeter',   '0.1.1'
 github 'zsh',   '1.0.0'
 github 'zshgitprompt',   '1.0.2'
 github 'vim',   '1.0.5'
+github 'sequel_pro',   '1.0.1'
 
