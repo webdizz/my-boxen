@@ -18,7 +18,7 @@ class people::webdizz::applications {
 
   class { 'intellij':
     edition => 'ultimate',
-    version => '12.1.5'
+    version => '12.1.6'
   }
 
   package { 'tmux':
