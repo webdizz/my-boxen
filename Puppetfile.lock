@@ -121,7 +121,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.5)
+    skype (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -131,7 +131,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (2.0.12)
+    vagrant (2.0.13)
 
 GITHUBTARBALL
   remote: boxen/puppet-vim
@@ -205,10 +205,10 @@ DEPENDENCIES
   ruby (= 6.3.4)
   sequel_pro (= 1.0.1)
   shortcat (= 1.0.5)
-  skype (= 1.0.5)
+  skype (= 1.0.6)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  vagrant (= 2.0.12)
+  vagrant (= 2.0.13)
   vim (= 1.0.5)
   virtualbox (= 1.0.6)
   wget (= 1.0.0)
