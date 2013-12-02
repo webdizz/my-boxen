@@ -113,8 +113,9 @@ class people::webdizz::os::preferences {
 
   class osx::show_remaining_battery_in_percents {
     boxen::osx_defaults { 'Show remaining battery in %':
+      ensure => present,
       user   => $::boxen_user,
-      domain => 'com.apple.menuextra.battery',
+      domain => "${home}/Library/Preferences/com.apple.menuextra.battery.plist",
       key    => 'ShowPercent',
       value  => 'YES';
     }

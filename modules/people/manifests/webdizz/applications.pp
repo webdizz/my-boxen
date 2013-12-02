@@ -41,4 +41,7 @@ class people::webdizz::applications {
   include people::webdizz::applications::mysql
   include people::webdizz::applications::zsh
 
+  vagrant::plugin { 'vagrant-omnibus':}
+  vagrant::plugin { 'vagrant-berkshelf':}
+
 }
