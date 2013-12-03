@@ -60,7 +60,7 @@ github "xquartz",    "1.1.0"
 github "java",     "1.1.2"
 github "skype",     "1.0.7"
 github "vagrant",     "3.0.0"
-github "virtualbox",     "1.0.9"
+github "virtualbox",     "1.0.10", :repo => 'webdizz/puppet-virtualbox'
 github "intellij",     "1.4.0"
 github "chrome",     "1.1.1"
 github "wget",     "1.0.0"
