@@ -15,6 +15,7 @@ class people::webdizz::applications {
   include firefox
   include jmeter
   include sequel_pro
+  include packer
 
   class { 'intellij':
     edition => 'ultimate',
