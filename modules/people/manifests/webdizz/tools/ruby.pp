@@ -1,16 +1,21 @@
 class people::webdizz::tools::ruby {
 
-  include ruby::2_0_0_p247
-  include ruby::1_9_3_p448
+  $ruby2 = '2.0.0-p353'
+  ruby::version { $ruby2:}
 
-  $ruby200 = '2.0.0-p247'
+  $ruby193 = '1.9.3-p484'
+  ruby::version { $ruby193: }
 
   ruby::gem { "teamocil":
     gem     => 'teamocil',
-    ruby    => $ruby_version
+    ruby    => $ruby2
   }
 
-  $ruby193 = '1.9.3-p448'
+  ruby::gem { "teamocil193":
+    gem     => 'teamocil',
+    ruby    => $ruby193
+  }
+
   ruby::gem { "buildr for ${version}":
     gem     => 'buildr',
     ruby    => $ruby193,

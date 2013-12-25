@@ -49,7 +49,7 @@ github "openssl",    "1.0.0"
 github "phantomjs",  "2.0.2"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.2.0"
-github "ruby",       "6.8.0"
+github "ruby",       "7.0.0"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
@@ -58,9 +58,10 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "java",     "1.1.2"
-github "skype",     "1.0.7"
-github "vagrant",     "3.0.1"
-github "virtualbox",     "1.0.10", :repo => 'webdizz/puppet-virtualbox'
+github "skype",     "1.0.8"
+github "vagrant",     "3.0.2"
+github "virtualbox",     "1.0.10"
+#, :repo => 'webdizz/puppet-virtualbox'
 github "intellij",     "1.4.0"
 github "chrome",     "1.1.1"
 github "wget",     "1.0.0"
@@ -73,10 +74,12 @@ github "shortcat",     "1.0.5"
 github "emacs",     "1.1.1"
 github "property_list_key",  "0.1.0"
 github 'iterm2',   '1.0.6'
-github 'firefox',   '1.1.5'
+github 'firefox',   '1.1.7'
 github 'jmeter',   '0.1.1'
 github 'zsh',   '1.0.0'
 github 'zshgitprompt',   '1.0.2'
 github 'vim',   '1.0.5'
 github 'sequel_pro',   '1.0.1'
 github 'packer',   '1.1.0'
+github 'shiftit',   '0.0.2'
+#github 'xquartz',   '1.1.1'

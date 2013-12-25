@@ -16,6 +16,8 @@ class people::webdizz::applications {
   include jmeter
   include sequel_pro
   include packer
+  include shiftit
+  #include xquartz
 
   class { 'intellij':
     edition => 'ultimate',
