@@ -211,7 +211,7 @@ GITHUBTARBALL
 DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.3.4)
-  chrome (= 1.1.1)
+  dnsmasq (= 1.0.1)
   cyberduck (= 1.0.1)
   dnsmasq (= 1.0.1)
   dropbox (= 1.2.0)

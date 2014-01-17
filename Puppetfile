@@ -34,7 +34,6 @@ github "boxen", "3.3.4"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "autoconf",   "1.0.0"
 github "dnsmasq",    "1.0.1"
 github "foreman",    "1.0.0"
 github "gcc",        "2.0.1"
