@@ -15,9 +15,13 @@ class people::webdizz::applications {
   include firefox
   include jmeter
   include sequel_pro
-  include packer
+  #include packer
   include shiftit
   #include xquartz
+
+  class {'packer':
+    version => '0.5.1'
+  }
 
   class { 'intellij':
     edition => 'ultimate',
