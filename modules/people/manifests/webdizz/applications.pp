@@ -20,12 +20,12 @@ class people::webdizz::applications {
   #include xquartz
 
   class {'packer':
-    version => '0.5.1'
+    version => '0.6.0'
   }
 
   class { 'intellij':
     edition => 'ultimate',
-    version => '12.1.6'
+    version => '13.1.1'
   }
 
   package { 'tmux':
