@@ -16,6 +16,7 @@ class people::webdizz::applications {
   include sequel_pro
   include shiftit
   #include xquartz
+  include vmware_fusion
 
   class {'packer':
     version => '0.6.0'
