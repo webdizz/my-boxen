@@ -15,8 +15,9 @@ class people::webdizz::applications {
   #include jmeter
   include sequel_pro
   include shiftit
-  #include xquartz
+  include xquartz
   include vmware_fusion
+  include slate
 
   class {'packer':
     version => '0.6.0'

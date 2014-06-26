@@ -154,6 +154,11 @@ GITHUBTARBALL
     skype (1.0.8)
 
 GITHUBTARBALL
+  remote: boxen/puppet-slate
+  specs:
+    slate (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -186,7 +191,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.1.1)
+    xquartz (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-zsh
@@ -247,6 +252,7 @@ DEPENDENCIES
   shiftit (= 0.0.2)
   shortcat (= 1.0.5)
   skype (= 1.0.8)
+  slate (= 1.0.1)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   vagrant (= 3.1.1)
@@ -254,7 +260,7 @@ DEPENDENCIES
   virtualbox (= 1.0.11)
   vmware_fusion (= 1.1.0)
   wget (= 1.0.0)
-  xquartz (= 1.1.1)
+  xquartz (= 1.2.0)
   zsh (= 1.0.0)
   zshgitprompt (= 1.0.2)
 
