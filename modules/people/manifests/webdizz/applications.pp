@@ -3,7 +3,6 @@ class people::webdizz::applications {
   include skype
   include vagrant
   include virtualbox
-  # include intellij
   include chrome
   include wget
   include dropbox
@@ -13,9 +12,8 @@ class people::webdizz::applications {
   include shortcat
   include iterm2::stable
   include firefox
-  include jmeter
+  #include jmeter
   include sequel_pro
-  #include packer
   include shiftit
   #include xquartz
 
@@ -47,6 +45,7 @@ class people::webdizz::applications {
   include people::webdizz::applications::argouml
   include people::webdizz::applications::mysql
   include people::webdizz::applications::zsh
+  include people::webdizz::applications::iterm2
 
   vagrant::plugin { 'vagrant-omnibus':}
   vagrant::plugin { 'vagrant-berkshelf':}
