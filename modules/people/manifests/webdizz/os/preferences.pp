@@ -1,5 +1,10 @@
 class people::webdizz::os::preferences {
 
+
+  include fonts
+  include fonts::adobe
+  include fonts::google
+
   ########################
   ## basic#  system settings
   # ########################
