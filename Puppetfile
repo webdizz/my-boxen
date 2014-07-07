@@ -40,10 +40,10 @@ github "module-data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 
 github "dnsmasq",     "1.0.1"
 github "foreman",     "1.2.0"
-github "gcc",         "2.0.101"
+github "gcc",         "2.1.0"
 github "git",         "2.4.0"
 github "go",          "1.1.0"
-github "homebrew",    "1.9.3"
+github "homebrew",    "1.9.4"
 github "hub",         "1.3.0"
 github "inifile",     "1.0.3", :repo => "puppetlabs/puppetlabs-inifile"
 github "openssl",     "1.0.0"
@@ -61,20 +61,20 @@ github "xquartz",     "1.2.0"
 github "java",     "1.5.0"
 github "skype",     "1.0.8"
 github "vagrant",     "3.1.1"
-github "virtualbox",     "1.0.11"
+github "virtualbox",     "1.0.12"
 github "intellij",     "1.5.1"
-github "chrome",     "1.1.1"
-github "wget",     "1.0.0"
+github "chrome",     "1.1.2"
+github "wget",     "1.0.1"
 github "dropbox",     "1.2.0"
 github "osx",     "2.7.0"
 github "cyberduck",     "1.0.1"
 github "mou",     "1.1.3"
 github "googledrive",     "1.0.2"
-github "shortcat",     "1.0.5"
+github "shortcat",     "1.0.6"
 github "emacs",     "1.3.0"
 github "property_list_key",  "0.1.0"
-github 'iterm2',   '1.0.9'
-github 'firefox',   '1.2.0'
+github 'iterm2',   '1.1.1'
+github 'firefox',   '1.2.1'
 github 'jmeter',   '0.1.3'
 github 'zsh',   '1.0.0'
 github 'zshgitprompt',   '1.0.2'
