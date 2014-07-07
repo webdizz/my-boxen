@@ -69,9 +69,9 @@ node default {
   # include nodejs::v0_10
 
   # default ruby versions
-  ruby::version { '1.9.3': }
-  ruby::version { '2.1.1': }
-  ruby::version { '2.1.2': }
+  #ruby::version { '1.9.3': }
+  #ruby::version { '2.1.1': }
+  #ruby::version { '2.1.2': }
 
   # common, useful packages
   package {

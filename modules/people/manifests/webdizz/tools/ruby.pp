@@ -3,6 +3,9 @@ class people::webdizz::tools::ruby {
   $ruby2 = '2.0.0-p481'
   ruby::version { $ruby2:}
 
+  $ruby21 = '2.1.2'
+  ruby::version { $ruby21:}
+
   $ruby193 = '1.9.3-p547'
   ruby::version { $ruby193: }
 
