@@ -85,3 +85,4 @@ github 'shiftit',   '0.0.2'
 github 'vmware_fusion', '1.1.0'
 github 'slate', '1.0.1'
 github 'fonts', '0.0.3'
+github "gvm",   "1.0.1", :repo => "Spantree/puppet-gvm"
