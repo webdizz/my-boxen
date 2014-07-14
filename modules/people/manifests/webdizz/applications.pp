@@ -18,6 +18,14 @@ class people::webdizz::applications {
   include xquartz
   include vmware_fusion
   include slate
+  include oracle_sqldeveloper
+
+  class smcFanControl {
+    package { 'smcFanControl':
+      provider => 'compressed_app',
+      source   => 'http://www.eidac.de/smcfancontrol/smcfancontrol_2_4.zip'
+    }
+  }
 
   class {'packer':
     version => '0.6.0'
