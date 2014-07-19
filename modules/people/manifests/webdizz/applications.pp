@@ -12,13 +12,15 @@ class people::webdizz::applications {
   include shortcat
   include iterm2::stable
   include firefox
-  #include jmeter
+  include jmeter
   include sequel_pro
   include shiftit
   include xquartz
   include vmware_fusion
   include slate
   include oracle_sqldeveloper
+  include swig
+  include graphviz
 
   class smcFanControl {
     package { 'smcFanControl':

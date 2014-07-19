@@ -50,7 +50,7 @@ github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "8.1.1"
+github "ruby",        "8.1.2"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.0"
@@ -75,7 +75,7 @@ github "emacs",     "1.3.0"
 github "property_list_key",  "0.1.0"
 github 'iterm2',   '1.1.1'
 github 'firefox',   '1.2.1'
-github 'jmeter',   '0.1.3'
+github 'jmeter',   '0.1.3.1', :repo => 'webdizz/puppet-jmeter'
 github 'zsh',   '1.0.0'
 github 'zshgitprompt',   '1.0.2'
 github 'vim',   '1.0.5'
@@ -87,3 +87,6 @@ github 'slate', '1.0.1'
 github 'fonts', '0.0.3'
 github "gvm",   "1.0.1", :repo => "Spantree/puppet-gvm"
 github "oracle_sqldeveloper", "0.0.8", :repo => "danmikita/puppet-oracle-sqldeveloper"
+github 'pcre', '1.0.0'
+github 'swig', '1.0.0'
+github 'graphviz', '1.0.0'
