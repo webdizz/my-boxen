@@ -28,6 +28,15 @@ class people::webdizz::applications {
       source   => 'http://www.eidac.de/smcfancontrol/smcfancontrol_2_4.zip'
     }
   }
+  include smcFanControl
+  
+  class filesmanager {
+    package { 'filesmanager':
+      provider => 'appdmg',
+      source   => 'file:///opt/boxen/files-0.5.9.dmg'
+    }
+  }
+  include filesmanager
 
   class {'packer':
     version => '0.6.0'
