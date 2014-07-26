@@ -47,7 +47,7 @@ class people::webdizz::applications {
   include tox
 
   class {'packer':
-    version => '0.6.0'
+    version => '0.6.1'
   }
 
   class { 'intellij':
