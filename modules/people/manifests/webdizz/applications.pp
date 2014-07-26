@@ -38,6 +38,14 @@ class people::webdizz::applications {
   }
   include filesmanager
 
+  class tox {
+    package { 'tox':
+      provider => 'appdmg',
+      source   => 'https://jenkins.libtoxcore.so/job/ToxGUI%20OS%20X/lastSuccessfulBuild/artifact/toxgui.dmg'
+    }
+  }
+  include tox
+
   class {'packer':
     version => '0.6.0'
   }
