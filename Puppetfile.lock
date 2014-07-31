@@ -194,11 +194,6 @@ GITHUBTARBALL
     vagrant (3.1.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-vim
-  specs:
-    vim (1.0.5)
-
-GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
     virtualbox (1.0.13)
@@ -232,6 +227,11 @@ GITHUBTARBALL
   remote: danmikita/puppet-oracle-sqldeveloper
   specs:
     oracle_sqldeveloper (0.0.8)
+
+GITHUBTARBALL
+  remote: mavcunha/puppet-vim
+  specs:
+    vim (1.0.8)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -298,7 +298,7 @@ DEPENDENCIES
   sudo (= 1.0.0)
   swig (= 1.0.0)
   vagrant (= 3.1.1)
-  vim (= 1.0.5)
+  vim (= 1.0.8)
   virtualbox (= 1.0.13)
   vmware_fusion (= 1.1.0)
   wget (= 1.0.1)
