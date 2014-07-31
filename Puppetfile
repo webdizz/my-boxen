@@ -59,7 +59,7 @@ github "xquartz",     "1.2.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "java",     "1.5.0"
+github "java",     "1.6.0"
 github "skype",     "1.0.8"
 github "vagrant",     "3.1.1"
 github "virtualbox",     "1.0.13"
