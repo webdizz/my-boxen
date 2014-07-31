@@ -19,6 +19,11 @@ class people::webdizz::tools::ruby {
     ruby_version    => $ruby193,
   }
 
+  ruby_gem { "travis":
+    gem     => 'travis',
+    ruby_version    => $ruby2,
+  }
+
   ruby_gem { "buildr for ${version}":
     gem     => 'buildr',
     ruby_version    => $ruby193,
