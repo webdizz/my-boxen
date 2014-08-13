@@ -29,11 +29,11 @@ class people::webdizz::applications {
     }
   }
   include smcFanControl
-  
+
   class filesmanager {
-    package { 'filesmanager':
+    package { 'filesmanager_0.6.0':
       provider => 'appdmg',
-      source   => 'file:///opt/boxen/files-0.5.9.dmg'
+      source   => 'file:///opt/boxen/files-0.6.0.dmg'
     }
   }
   include filesmanager
@@ -45,6 +45,10 @@ class people::webdizz::applications {
     }
   }
   include tox
+
+  package {'lnav':
+    ensure => present
+  }
 
   class {'packer':
     version => '0.6.1'
