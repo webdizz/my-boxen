@@ -253,6 +253,11 @@ GITHUBTARBALL
   specs:
     jmeter (0.1.3.1)
 
+GITHUBTARBALL
+  remote: webdizz/puppet-soapui
+  specs:
+    soapui (1.1.7)
+
 DEPENDENCIES
   boxen (= 3.6.2)
   chrome (= 1.1.2)
@@ -294,6 +299,7 @@ DEPENDENCIES
   shortcat (= 1.0.6)
   skype (= 1.0.8)
   slate (= 1.0.1)
+  soapui (= 1.1.7)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   swig (= 1.0.0)

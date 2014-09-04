@@ -92,3 +92,4 @@ github "oracle_sqldeveloper", "0.0.8", :repo => "danmikita/puppet-oracle-sqldeve
 github 'pcre', '1.0.0'
 github 'swig', '1.0.0'
 github 'graphviz', '1.0.0'
+github 'soapui', '1.1.7', :repo => 'webdizz/puppet-soapui'
