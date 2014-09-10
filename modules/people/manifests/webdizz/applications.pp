@@ -1,7 +1,7 @@
 class people::webdizz::applications {
 
   include skype
-  include vagrant
+  #include vagrant
   include virtualbox
   include chrome
   include wget
@@ -22,6 +22,10 @@ class people::webdizz::applications {
   include swig
   include graphviz
 
+  class { 'vagrant':
+    version => '1.6.4'
+  }
+
   class smcFanControl {
     package { 'smcFanControl':
       provider => 'compressed_app',
@@ -29,6 +33,14 @@ class people::webdizz::applications {
     }
   }
   include smcFanControl
+
+  class visualVm {
+    package { 'VisualVM':
+      provider => 'appdmg',
+      source => 'https://java.net/projects/visualvm/downloads/download/release138/VisualVM_138.dmg'
+    }
+  }
+  include visualVm
 
   class filesmanager {
     package { 'filesmanager_0.6.0':
