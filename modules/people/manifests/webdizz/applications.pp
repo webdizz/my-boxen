@@ -23,7 +23,7 @@ class people::webdizz::applications {
   include graphviz
 
   class { 'vagrant':
-    version => '1.6.4'
+    version => '1.6.5'
   }
 
   class smcFanControl {
@@ -68,7 +68,7 @@ class people::webdizz::applications {
 
   class { 'intellij':
     edition => 'ultimate',
-    version => '13.1.1'
+    version => '13.1.4b'
   }
 
   package { 'tmux':
