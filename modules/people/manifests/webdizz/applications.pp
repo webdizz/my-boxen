@@ -2,7 +2,7 @@ class people::webdizz::applications {
 
   include skype
   #include vagrant
-  include virtualbox
+  #include virtualbox
   include chrome
   include wget
   include dropbox

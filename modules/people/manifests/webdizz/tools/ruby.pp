@@ -19,6 +19,11 @@ class people::webdizz::tools::ruby {
     ruby_version    => $ruby193,
   }
 
+  ruby_gem { "teamocil21":
+    gem     => 'teamocil',
+    ruby_version    => $ruby21,
+  }
+
   ruby_gem { "travis":
     gem     => 'travis',
     ruby_version    => $ruby2,

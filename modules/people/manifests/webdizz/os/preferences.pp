@@ -49,5 +49,37 @@ class people::webdizz::os::preferences {
   include osx::software_update
   include osx::disable_app_quarantine
 
+  include karabiner
+  # launch and add login-item
+  include karabiner::login_item
+  # set the contents of the private.xml file.
+  karabiner::private_xml{ 'private.xml':
+    content => "
+<root>
+<item>
+    <name>Remap Caps Lock to Hyper</name>
+    <appendix>OS X doesn't have a Hyper. This maps Left Control to Control + Shift + Option + Command.</appendix>
+
+    <identifier>caps_lock_to_hyper</identifier>
+
+    <autogen>
+        --KeyToKey--
+        KeyCode::F19,
+
+        KeyCode::COMMAND_L,
+        ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
+    </autogen>
+</item>
+</root>
+"
+  }
+
+  karabiner::enable { 'remap.caps_lock_to_hyper':}
+
+  include seil
+  # add seil to login items:
+  include seil::login_item
+
+  seil::map { 'capslock': value => 80 }
 
 }

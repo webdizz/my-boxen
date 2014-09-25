@@ -106,4 +106,11 @@ class people::webdizz::dotfiles {
     require => Repository[$dotfiles],
   }
 
+  file { "${home}/.slate":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/.slate",
+    require => Repository[$dotfiles],
+  }
+
 }
