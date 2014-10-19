@@ -56,7 +56,7 @@ class people::webdizz::applications {
       source   => 'https://jenkins.libtoxcore.so/job/ToxGUI%20OS%20X/lastSuccessfulBuild/artifact/toxgui.dmg'
     }
   }
-  include tox
+  #include tox
 
   package {'lnav':
     ensure => present

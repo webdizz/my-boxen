@@ -14,11 +14,6 @@ GITHUBTARBALL
     chrome (1.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-cyberduck
-  specs:
-    cyberduck (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.0)
@@ -254,6 +249,11 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 GITHUBTARBALL
+  remote: webdizz/puppet-cyberduck
+  specs:
+    cyberduck (1.0.2)
+
+GITHUBTARBALL
   remote: webdizz/puppet-jmeter
   specs:
     jmeter (0.1.3.1)
@@ -266,7 +266,7 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 3.7.0)
   chrome (= 1.2.0)
-  cyberduck (= 1.0.1)
+  cyberduck (= 1.0.2)
   dnsmasq (= 2.0.0)
   dropbox (= 1.4.0)
   emacs (= 1.3.0)
