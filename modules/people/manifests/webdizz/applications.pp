@@ -1,7 +1,6 @@
 class people::webdizz::applications {
 
   include skype
-  #include vagrant
   #include virtualbox
   include chrome
   include wget
@@ -50,20 +49,12 @@ class people::webdizz::applications {
   }
   include filesmanager
 
-  class tox {
-    package { 'tox':
-      provider => 'appdmg',
-      source   => 'https://jenkins.libtoxcore.so/job/ToxGUI%20OS%20X/lastSuccessfulBuild/artifact/toxgui.dmg'
-    }
-  }
-  #include tox
-
   package {'lnav':
     ensure => present
   }
 
   class {'packer':
-    version => '0.6.1'
+    version => '0.7.1'
   }
 
   class { 'intellij':
