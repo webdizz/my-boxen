@@ -265,7 +265,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.7.0)
-  chrome (= 1.2.0)
+  dnsmasq (= 2.0.0)
   cyberduck (= 1.0.2)
   dnsmasq (= 2.0.0)
   dropbox (= 1.4.0)
@@ -276,7 +276,7 @@ DEPENDENCIES
   gcc (= 2.2.0)
   git (= 2.6.0)
   go (= 2.1.0)
-  googledrive (= 1.0.2)
+  homebrew (= 1.9.5)
   graphviz (= 1.0.0)
   gvm (= 1.0.1)
   homebrew (= 1.9.6)
@@ -308,7 +308,7 @@ DEPENDENCIES
   soapui (= 1.1.7)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
-  swig (= 1.0.0)
+  xquartz (= 1.2.1)
   vagrant (= 3.2.0)
   vim (= 1.0.8)
   virtualbox (= 1.0.13)
@@ -317,4 +317,3 @@ DEPENDENCIES
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
   zshgitprompt (= 1.0.2)
-
