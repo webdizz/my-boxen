@@ -59,14 +59,14 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "java",     "1.7.0"
+github "java",     "1.7.1"
 github "skype",     "1.0.9"
 github "vagrant",     "3.2.0"
 github "virtualbox",     "1.0.13"
 github "intellij",     "1.5.1"
 github "chrome",     "1.2.0"
 github "wget",     "1.0.1"
-github "dropbox",     "1.4.0"
+github "dropbox",     "1.4.1"
 github "osx",     "2.7.1"
 github "cyberduck",     "1.0.2", :repo => "webdizz/puppet-cyberduck"
 github "mou",     "1.1.3"
@@ -74,7 +74,7 @@ github "googledrive",     "1.0.2"
 github "shortcat",     "1.0.6"
 github "emacs",     "1.3.0"
 github "property_list_key",  "0.1.0"
-github 'iterm2',   '1.2.0'
+github 'iterm2',   '1.2.2'
 github 'firefox',   '1.2.3'
 github 'jmeter',   '0.1.3.1', :repo => 'webdizz/puppet-jmeter'
 github 'zsh',   '1.0.0'
