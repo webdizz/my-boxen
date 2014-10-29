@@ -72,7 +72,7 @@ github "cyberduck",     "1.0.2", :repo => "webdizz/puppet-cyberduck"
 github "mou",     "1.1.3"
 github "googledrive",     "1.0.2"
 github "shortcat",     "1.0.6"
-github "emacs",     "1.3.0"
+github "emacs",     "1.4.0",  :repo => "webdizz/puppet-emacs"
 github "property_list_key",  "0.1.0"
 github 'iterm2',   '1.2.2'
 github 'firefox',   '1.2.3'

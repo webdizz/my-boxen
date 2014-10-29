@@ -44,7 +44,8 @@ class people::webdizz::applications {
   class filesmanager {
     package { 'filesmanager_0.6.0':
       provider => 'appdmg',
-      source   => 'file:///opt/boxen/files-0.6.0.dmg'
+      #source   => 'file:///opt/boxen/files-0.6.0.dmg'
+      source   => "http://filesmanager.info/downloads/files-0.6.1(727).dmg"
     }
   }
   include filesmanager
