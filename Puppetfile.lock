@@ -99,9 +99,14 @@ GITHUBTARBALL
     mou (1.1.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-nginx
+  specs:
+    nginx (1.4.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.8.1)
+    nodejs (4.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -289,7 +294,8 @@ DEPENDENCIES
   karabiner (= 1.0.6)
   module_data (= 0.0.3)
   mou (= 1.1.3)
-  nodejs (= 3.8.1)
+  nginx (= 1.4.4)
+  nodejs (= 4.0.0)
   openssl (= 1.0.0)
   oracle_sqldeveloper (= 0.0.8)
   osx (= 2.8.0)
