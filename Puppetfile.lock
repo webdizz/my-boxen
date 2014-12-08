@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    dnsmasq (2.0.0)
+    dnsmasq (2.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
@@ -66,7 +66,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.9.7)
+    homebrew (1.9.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -111,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (2.7.1)
+    osx (2.8.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-packer
@@ -146,7 +146,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.1.5)
+    ruby (8.1.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-seil
@@ -166,7 +166,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.9)
+    skype (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-slate
@@ -267,7 +267,7 @@ DEPENDENCIES
   boxen (= 3.7.0)
   chrome (= 1.2.0)
   cyberduck (= 1.0.2)
-  dnsmasq (= 2.0.0)
+  dnsmasq (= 2.0.1)
   dropbox (= 1.4.1)
   emacs (= 1.4.0)
   firefox (= 1.2.3)
@@ -279,7 +279,7 @@ DEPENDENCIES
   googledrive (= 1.0.2)
   graphviz (= 1.0.0)
   gvm (= 1.0.1)
-  homebrew (= 1.9.7)
+  homebrew (= 1.9.8)
   hub (= 1.3.0)
   inifile (= 1.1.1)
   intellij (= 1.5.1)
@@ -292,18 +292,18 @@ DEPENDENCIES
   nodejs (= 3.8.1)
   openssl (= 1.0.0)
   oracle_sqldeveloper (= 0.0.8)
-  osx (= 2.7.1)
+  osx (= 2.8.0)
   packer (= 1.2.1)
   pcre (= 1.0.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   property_list_key (= 0.1.0)
   repository (= 2.3.0)
-  ruby (= 8.1.5)
+  ruby (= 8.1.7)
   seil (= 1.0.2)
   sequel_pro (= 1.0.1)
   shortcat (= 1.0.6)
-  skype (= 1.0.9)
+  skype (= 1.1.0)
   slate (= 1.0.1)
   soapui (= 1.1.7)
   stdlib (= 4.2.1)

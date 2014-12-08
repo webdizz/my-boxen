@@ -76,6 +76,10 @@ class people::webdizz::applications {
     ensure => installed,
   }
 
+  package {'ssh-copy-id':
+    ensure => installed,
+  }
+
   include people::webdizz::applications::vim
   include people::webdizz::applications::emacs
   include people::webdizz::applications::kdiff3
