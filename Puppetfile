@@ -42,8 +42,7 @@ github "dnsmasq",     "2.0.1"
 github "foreman",     "1.2.0"
 github "gcc",         "2.2.0"
 github "git",         "2.7.0"
-github "go",          "2.1.0"
-github "homebrew",    "1.9.8"
+github "homebrew",    "1.11.1"
 github "hub",         "1.3.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.4"
@@ -82,7 +81,7 @@ github 'zsh',   '1.0.0'
 github 'zshgitprompt',   '1.0.2'
 github 'vim',   '1.0.8', :repo => 'mavcunha/puppet-vim'
 github 'sequel_pro',   '1.0.1'
-github 'packer',   '1.2.1'
+github 'packer',   '1.3.1', :repo => 'webdizz/puppet-packer'
 github 'vmware_fusion', '1.2.0'
 github 'slate', '1.0.1'
 github 'fonts', '0.0.3'

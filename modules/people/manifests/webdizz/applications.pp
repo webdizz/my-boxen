@@ -88,6 +88,19 @@ class people::webdizz::applications {
   include people::webdizz::applications::zsh
   include people::webdizz::applications::iterm2
 
+
+  package { "pstree":
+        ensure => present,
+  }
+   
+  package { "watch":
+        ensure => present,
+  }
+   
+  package { "mtr":
+        ensure => present,
+  }
+
   vagrant::plugin { 'vagrant-omnibus':}
   vagrant::plugin { 'vagrant-berkshelf':}
   vagrant::plugin { 'vagrant-vmware-fusion':
