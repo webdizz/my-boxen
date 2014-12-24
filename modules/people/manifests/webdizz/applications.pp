@@ -1,7 +1,6 @@
 class people::webdizz::applications {
 
   include skype
-  #include virtualbox
   include chrome
   include wget
   include dropbox
@@ -21,31 +20,11 @@ class people::webdizz::applications {
   include swig
   include graphviz
 
-  class { 'vagrant':
-    version => '1.6.5'
-  }
-
-  class smcFanControl {
-    package { 'smcFanControl':
-      provider => 'compressed_app',
-      source   => 'http://www.eidac.de/smcfancontrol/smcfancontrol_2_4.zip'
-    }
-  }
-  include smcFanControl
-
-  class visualVm {
-    package { 'VisualVM':
-      provider => 'appdmg',
-      source => 'https://java.net/projects/visualvm/downloads/download/release138/VisualVM_138.dmg'
-    }
-  }
-  include visualVm
-
   class filesmanager {
     package { 'filesmanager_0.6.0':
       provider => 'appdmg',
-      #source   => 'file:///opt/boxen/files-0.6.0.dmg'
-      source   => "http://filesmanager.info/downloads/files-0.6.1(727).dmg"
+      #source   => "http://filesmanager.info/downloads/files-1.0.4(913).dmg",
+      source   => "http://filesmanager.info/downloads/latest.dmg",
     }
   }
   include filesmanager
@@ -54,13 +33,9 @@ class people::webdizz::applications {
     ensure => present
   }
 
-  class {'packer':
-    version => '0.7.1'
-  }
-
   class { 'intellij':
     edition => 'ultimate',
-    version => '13.1.5'
+    version => '14.0.2'
   }
 
   package { 'tmux':
@@ -90,20 +65,15 @@ class people::webdizz::applications {
 
 
   package { "pstree":
-        ensure => present,
-  }
-   
-  package { "watch":
-        ensure => present,
-  }
-   
-  package { "mtr":
-        ensure => present,
+    ensure => present,
   }
 
-  vagrant::plugin { 'vagrant-omnibus':}
-  vagrant::plugin { 'vagrant-berkshelf':}
-  vagrant::plugin { 'vagrant-vmware-fusion':
-    license => 'file:///Users/webdizz/Documents/vagrant_license.lic'
+  package { "watch":
+    ensure => present,
   }
+
+  package { "mtr":
+    ensure => present,
+  }
+
 }

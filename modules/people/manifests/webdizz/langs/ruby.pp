@@ -1,4 +1,4 @@
-class people::webdizz::tools::ruby {
+class people::webdizz::langs::ruby {
 
   $ruby2 = '2.0.0-p481'
   ruby::version { $ruby2:}

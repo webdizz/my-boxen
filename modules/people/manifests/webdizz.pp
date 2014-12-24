@@ -7,6 +7,7 @@ class people::webdizz {
     ensure  => directory
   }
 
+  include people::webdizz::langs
   include people::webdizz::tools
   include people::webdizz::applications
   include people::webdizz::dotfiles
