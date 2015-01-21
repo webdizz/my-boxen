@@ -61,7 +61,7 @@ github "xquartz",     "1.2.1"
 
 github "java",               "1.8.0"
 github "skype",              "1.1.0"
-github "vagrant",            "3.2.1"
+github "vagrant",            "3.2.2"
 github "virtualbox",         "1.0.13"
 github "intellij",           "1.5.1"
 github "chrome",             "1.2.0"
@@ -71,10 +71,10 @@ github "osx",                "2.8.0"
 github "cyberduck",          "1.0.2", :repo => "webdizz/puppet-cyberduck"
 github "mou",                "1.1.3"
 github "googledrive",        "1.0.2"
-github "shortcat",           "1.0.6"
+github "shortcat",           "1.1.0"
 github "emacs",              "1.4.0",  :repo => "webdizz/puppet-emacs"
 github "property_list_key",  "0.1.0"
-github 'iterm2',             '1.2.2'
+github 'iterm2',             '1.2.4'
 github 'firefox',            '1.2.3'
 github 'jmeter',             '0.1.3.1', :repo => 'webdizz/puppet-jmeter'
 github 'zsh',                '1.0.0'
@@ -92,4 +92,4 @@ github 'swig',               '1.0.0'
 github 'graphviz',           '1.0.0'
 github 'soapui',             '1.1.7', :repo => 'webdizz/puppet-soapui'
 github 'karabiner',          '1.0.6'
-github 'seil',               '1.0.2'
+github 'seil',               '1.0.3'
