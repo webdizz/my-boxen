@@ -2,6 +2,7 @@ class people::webdizz::tools {
 
   include people::webdizz::tools::gvm
   include people::webdizz::tools::vagrants
+  include people::webdizz::tools::scala
 
   class {'packer':
     version => '0.7.5'
