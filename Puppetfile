@@ -61,7 +61,6 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "java",               "1.8.0"
 github "skype",              "1.1.0"
 github "vagrant",            "3.2.2"
 github "virtualbox",         "1.0.13"
@@ -95,4 +94,3 @@ github 'graphviz',           '1.0.0'
 github 'soapui',             '1.1.7', :repo => 'webdizz/puppet-soapui'
 github 'karabiner',          '1.0.6'
 github 'seil',               '1.0.3'
-github 'clojure',            '1.3.0'
