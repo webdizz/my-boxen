@@ -16,7 +16,7 @@ class people::webdizz::langs {
   package {'leiningen':}
 
   class rust {
-    package { 'rust_30_01_15':
+    package { 'rust_01_02_15':
       provider => 'pkgdmg',
       source => 'http://static.rust-lang.org/dist/rust-nightly-x86_64-apple-darwin.pkg'
     }
