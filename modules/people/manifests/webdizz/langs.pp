@@ -5,7 +5,7 @@ class people::webdizz::langs {
   include people::webdizz::langs::erlang-lang
 
   package { 'go':
-    ensure => '1.4.1',
+    ensure => '1.4.2',
   }
 
   package { 'hg':}
@@ -17,7 +17,7 @@ class people::webdizz::langs {
   package {'leiningen':}
 
   class rust {
-    package { 'rust_05_02_15':
+    package { 'rust_24_02_15':
       provider => 'pkgdmg',
       source => 'http://static.rust-lang.org/dist/rust-nightly-x86_64-apple-darwin.pkg'
     }
