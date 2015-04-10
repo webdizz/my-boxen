@@ -71,7 +71,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.11.6)
+    homebrew (1.12.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -224,6 +224,11 @@ GITHUBTARBALL
     oracle_sqldeveloper (0.0.8)
 
 GITHUBTARBALL
+  remote: johnlauck/puppet-cyberduck
+  specs:
+    cyberduck (1.1.4)
+
+GITHUBTARBALL
   remote: mavcunha/puppet-vim
   specs:
     vim (1.0.8)
@@ -242,11 +247,6 @@ GITHUBTARBALL
   remote: ripienaar/puppet-module-data
   specs:
     module_data (0.0.3)
-
-GITHUBTARBALL
-  remote: webdizz/puppet-cyberduck
-  specs:
-    cyberduck (1.0.2)
 
 GITHUBTARBALL
   remote: webdizz/puppet-emacs
@@ -272,7 +272,7 @@ DEPENDENCIES
   boxen (= 3.10.2)
   brewcask (= 0.0.6)
   chrome (= 1.2.0)
-  cyberduck (= 1.0.2)
+  cyberduck (= 1.1.4)
   dnsmasq (= 2.0.1)
   dropbox (= 1.4.1)
   emacs (= 1.4.0)
@@ -285,7 +285,7 @@ DEPENDENCIES
   googledrive (= 1.0.2)
   graphviz (= 1.0.0)
   gvm (= 1.0.1)
-  homebrew (= 1.11.6)
+  homebrew (= 1.12.0)
   hub (= 1.4.0)
   inifile (= 1.1.1)
   intellij (= 1.5.1)
