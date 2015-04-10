@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.10.2"
+github "boxen", "3.10.4"
 
 # Support for default hiera data in modules
 
@@ -53,7 +53,7 @@ github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "8.4.0"
+github "ruby",        "8.5.0"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
@@ -62,7 +62,7 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "skype",              "1.1.0"
-github "vagrant",            "3.2.2"
+github "vagrant",            "3.3.0"
 github "virtualbox",         "1.0.13"
 github "intellij",           "1.5.1"
 github "chrome",             "1.2.0"
@@ -92,5 +92,5 @@ github 'pcre',               '1.0.0'
 github 'swig',               '1.0.0'
 github 'graphviz',           '1.0.0'
 github 'soapui',             '1.1.7', :repo => 'webdizz/puppet-soapui'
-github 'karabiner',          '1.0.6'
+github 'karabiner',          '1.0.7'
 github 'seil',               '1.0.3'
