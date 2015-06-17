@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.10.4"
+github "boxen", "3.11.0"
 
 # Support for default hiera data in modules
 
@@ -41,9 +41,9 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 github "brewcask",    "0.0.6"
 github "dnsmasq",     "2.0.1"
 github "foreman",     "1.2.0"
-github "gcc",         "2.2.0"
-github "git",         "2.7.7"
-github "homebrew",    "1.12.0"
+github "gcc",         "2.2.2"
+github "git",         "2.7.91"
+github "homebrew",    "1.13.0"
 github "go",          "2.1.0"
 github "hub",         "1.4.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
@@ -53,7 +53,7 @@ github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "8.5.0"
+github "ruby",        "8.5.2"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
@@ -75,14 +75,14 @@ github "googledrive",        "1.0.2"
 github "shortcat",           "1.1.0"
 github "emacs",              "1.4.0",  :repo => "webdizz/puppet-emacs"
 github "property_list_key",  "0.1.0"
-github 'iterm2',             '1.2.4'
+github 'iterm2',             '1.2.5'
 github 'firefox',            '1.2.3'
 github 'jmeter',             '0.1.3.1', :repo => 'webdizz/puppet-jmeter'
 github 'zsh',                '1.0.0'
 github 'zshgitprompt',       '1.0.2'
 github 'vim',                '1.0.8', :repo => 'mavcunha/puppet-vim'
 github 'sequel_pro',         '1.0.1'
-github 'packer',             '1.3.2', :repo => 'webdizz/puppet-packer'
+github 'packer',             '1.3.0'#, :repo => 'boxen/puppet-packer'
 github 'vmware_fusion',      '1.2.0'
 github 'slate',              '1.0.1'
 github 'fonts',              '0.0.3'

@@ -17,6 +17,9 @@ class people::webdizz::os::preferences {
   include osx::global::expand_print_dialog
   include osx::global::tap_to_click
   include osx::global::expand_save_dialog
+  include osx::global::enable_keyboard_control_access
+  include osx::global::disable_remote_control_ir_receiver
+  include osx::global::disable_autocorrect
 
   class { 'osx::universal_access::cursor_size':
     zoom => 2
@@ -36,6 +39,7 @@ class people::webdizz::os::preferences {
   }
   include osx::dock::autohide
   include osx::dock::clear_dock
+  include osx::dock::hide_indicator_lights
 
   include osx::finder::empty_trash_securely
   include osx::finder::unhide_library

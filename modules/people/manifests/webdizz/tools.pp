@@ -24,4 +24,12 @@ class people::webdizz::tools {
   }
   include visualVm
 
+  package {'tsung':
+    ensure => '1.5.1',
+  }
+
+  package {'gnuplot':
+    ensure => '5.0.0',
+  }
+
 }

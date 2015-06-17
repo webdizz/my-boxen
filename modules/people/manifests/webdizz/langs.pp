@@ -12,12 +12,12 @@ class people::webdizz::langs {
 
   include gvm
 
-  gvm::groovy { '2.4.0': }
+  gvm::groovy { '2.4.3': }
 
   package {'leiningen':}
 
   class rust {
-    package { 'rust_24_02_15':
+    package { 'rust_17_06_15':
       provider => 'pkgdmg',
       source => 'http://static.rust-lang.org/dist/rust-nightly-x86_64-apple-darwin.pkg'
     }

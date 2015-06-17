@@ -4,7 +4,7 @@ class people::webdizz::applications::emacs {
 
     include emacs
     package {'emacs':
-      ensure => 'present',
+      ensure => '24.5',
     }
 
     exec { 'Install Emacs Prelude':
