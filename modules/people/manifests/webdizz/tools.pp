@@ -13,14 +13,15 @@ class people::webdizz::tools {
     ensure => '2.5.2',
     provider => 'brewcask'
   }
-  
-  class visualVm {
-    package { 'VisualVM':
-      provider => 'appdmg',
-      source => 'https://java.net/projects/visualvm/downloads/download/release138/VisualVM_138.dmg'
-    }
+
+  package { 'visualvm':
+    ensure => '138',
+    provider => 'brewcask'
   }
-  include visualVm
+
+    package { 'slack':
+      provider => 'brewcask'
+    }
 
   package {'tsung':
     ensure => '1.5.1',
