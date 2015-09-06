@@ -43,7 +43,7 @@ github "dnsmasq",     "2.0.1"
 github "foreman",     "1.2.0"
 github "gcc",         "3.0.2"
 github "git",         "2.7.92"
-github "homebrew",    "1.13.0"
+github "homebrew",    "2.0.0"
 github "go",          "2.1.0"
 github "hub",         "1.4.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
@@ -62,7 +62,7 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "skype",              "1.1.0"
-github "vagrant",            "3.3.0"
+github "vagrant",            "3.3.3"
 github "virtualbox",         "1.0.13"
 github "intellij",           "1.5.1"
 github "chrome",             "1.2.0"
@@ -82,7 +82,7 @@ github 'zsh',                '1.0.0'
 github 'zshgitprompt',       '1.0.2'
 github 'vim',                '1.0.8', :repo => 'mavcunha/puppet-vim'
 github 'sequel_pro',         '1.0.1'
-github 'packer',             '1.3.0'#, :repo => 'boxen/puppet-packer'
+github 'packer',             '1.3.2', :repo => 'nhoag/puppet-packer'
 github 'vmware_fusion',      '1.2.0'
 github 'slate',              '1.0.1'
 github 'fonts',              '0.0.3'
