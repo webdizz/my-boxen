@@ -11,6 +11,7 @@ class people::webdizz::applications::atom {
     atom::package { 'language-asciidoc': }
     atom::package { 'language-docker': }
     atom::package { 'pretty-json': }
+    atom::package { 'auto-indent': }
 
     atom::package { 'language-plantuml': }
     atom::package { 'plantuml': }
