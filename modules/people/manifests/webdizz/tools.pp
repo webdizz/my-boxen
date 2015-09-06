@@ -5,7 +5,7 @@ class people::webdizz::tools {
   include people::webdizz::tools::scala
 
   class {'packer':
-    version => '0.8.0'
+    version => '0.8.6'
   }
 
   class smcFanControl {
