@@ -10,16 +10,42 @@ class people::webdizz::tools {
   }
 
   package { 'smcfancontrol':
-    ensure => '2.5.2',
     provider => 'brewcask'
   }
 
   package { 'visualvm':
-    ensure => '138',
     provider => 'brewcask'
   }
 
     package { 'slack':
+      provider => 'brewcask'
+    }
+
+    package { 'xmind':
+      provider => 'brewcask'
+    }
+
+    package { 'viber':
+      provider => 'brewcask'
+    }
+
+    package { 'wireshark':
+      provider => 'brewcask'
+    }
+
+    package { 'djview':
+      provider => 'brewcask'
+    }
+
+    package { 'joinme':
+      provider => 'brewcask'
+    }
+
+    package { 'kindle':
+      provider => 'brewcask'
+    }
+
+    package { 'turbo-boost-switcher':
       provider => 'brewcask'
     }
 
