@@ -13,15 +13,7 @@ class people::webdizz::tools {
     ensure => '2.5.2',
     provider => 'brewcask'
   }
-  # class smcFanControl {
-  #   package { 'smcFanControl':
-  #     provider => 'compressed_app',
-  #     source   => 'http://www.eidac.de/smcfancontrol/smcfancontrol_2_5_2.zip',
-  #     ensure => '2.5.2'
-  #   }
-  # }
-  # include smcFanControl
-
+  
   class visualVm {
     package { 'VisualVM':
       provider => 'appdmg',
