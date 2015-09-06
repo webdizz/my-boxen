@@ -62,7 +62,7 @@ class people::webdizz::applications {
   include people::webdizz::applications::mysql
   include people::webdizz::applications::zsh
   include people::webdizz::applications::iterm2
-
+  include people::webdizz::applications::atom
 
   package { "pstree":
     ensure => present,
