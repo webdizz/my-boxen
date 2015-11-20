@@ -1,7 +1,7 @@
 class people::webdizz::tools::vagrants {
 
   class { 'vagrant':
-    version => '1.7.2'
+    version => '1.7.4'
   }
 
   vagrant::plugin { 'vagrant-omnibus':}

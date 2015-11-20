@@ -4,15 +4,9 @@ class people::webdizz::langs {
   include people::webdizz::langs::javas
   include people::webdizz::langs::erlang-lang
 
-  package { 'go':
-    ensure => '1.5',
-  }
+  package { 'go':}
 
   package { 'hg':}
-
-  include gvm
-
-  gvm::groovy { '2.4.4': }
 
   package {'leiningen':}
 

@@ -10,10 +10,9 @@ class people::webdizz::tools {
   }
 
   package { 'smcfancontrol':
-    ensure => '2.5.2',
     provider => 'brewcask'
   }
-  
+
   class visualVm {
     package { 'VisualVM':
       provider => 'appdmg',
@@ -22,12 +21,8 @@ class people::webdizz::tools {
   }
   include visualVm
 
-  package {'tsung':
-    ensure => '1.5.1',
-  }
+  package {'tsung':}
 
-  package {'gnuplot':
-    ensure => '5.0.0',
-  }
+  package {'gnuplot':}
 
 }
