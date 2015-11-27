@@ -25,4 +25,12 @@ class people::webdizz::tools {
 
   package {'gnuplot':}
 
+  package { 'xmind':
+    provider => 'brewcask'
+  }
+
+  package { 'kindle':
+    provider => 'brewcask'
+  }
+
 }
