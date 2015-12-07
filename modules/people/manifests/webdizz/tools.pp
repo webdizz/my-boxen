@@ -33,4 +33,8 @@ class people::webdizz::tools {
     provider => 'brewcask'
   }
 
+  package { 'archi':
+    provider => 'brewcask'
+  }
+
 }
