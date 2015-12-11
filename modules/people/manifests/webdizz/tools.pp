@@ -23,6 +23,8 @@ class people::webdizz::tools {
 
   package {'tsung':}
 
+  package {'otto':}
+
   package {'gnuplot':}
 
   package { 'xmind':
