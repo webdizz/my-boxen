@@ -37,6 +37,8 @@ class people::webdizz::tools {
     provider => 'brewcask'
   }
 
+  package { 'kdiff3': }
+
   package { 'archi':
     provider => 'brewcask'
   }

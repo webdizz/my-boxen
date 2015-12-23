@@ -43,7 +43,6 @@ class people::webdizz::applications {
 
   include people::webdizz::applications::vim
   include people::webdizz::applications::emacs
-  include people::webdizz::applications::kdiff3
   include people::webdizz::applications::argouml
   include people::webdizz::applications::mysql
   include people::webdizz::applications::zsh
