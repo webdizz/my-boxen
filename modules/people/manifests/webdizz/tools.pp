@@ -27,6 +27,8 @@ class people::webdizz::tools {
 
   package {'gnuplot':}
 
+  package {'tree':}
+
   package { 'xmind':
     provider => 'brewcask'
   }
