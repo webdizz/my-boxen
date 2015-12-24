@@ -37,6 +37,8 @@ class people::webdizz::tools {
     provider => 'brewcask'
   }
 
+  package { 'heroku-toolbelt':}
+
   package { 'kdiff3': }
 
   package { 'archi':
