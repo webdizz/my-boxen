@@ -21,10 +21,6 @@ class people::webdizz::tools {
       provider => 'brewcask'
     }
 
-    package { 'xmind':
-      provider => 'brewcask'
-    }
-
     package { 'viber':
       provider => 'brewcask'
     }
@@ -38,10 +34,6 @@ class people::webdizz::tools {
     }
 
     package { 'joinme':
-      provider => 'brewcask'
-    }
-
-    package { 'kindle':
       provider => 'brewcask'
     }
 
