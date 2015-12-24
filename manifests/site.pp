@@ -65,6 +65,7 @@ node default {
 
   # node versions
 
+nodejs::version { 'v5.3.0': }
 
   # common, useful packages
   package {
