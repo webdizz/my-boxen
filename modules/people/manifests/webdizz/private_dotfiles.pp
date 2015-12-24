@@ -14,6 +14,19 @@ class people::webdizz::private_dotfiles {
     require => Repository[$pdotfiles],
   }
 
+  file { "${home}/.m2":
+    ensure  => directory,
+    mode    => '0644',
+    require => Repository[$pdotfiles],
+  }
+
+  file { "${home}/.m2/settings.xml":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${pdotfiles}/.m2/settings.xml",
+    require => Repository[$pdotfiles],
+  }
+
   file { "${home}/.teamocil":
     ensure  => link,
     mode    => '0644',

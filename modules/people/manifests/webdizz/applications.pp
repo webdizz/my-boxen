@@ -10,7 +10,7 @@ class people::webdizz::applications {
   include shortcat
   include iterm2::stable
   include firefox
-  include jmeter
+  # include jmeter
   include sequel_pro
   include shiftit
   include xquartz
@@ -20,22 +20,8 @@ class people::webdizz::applications {
   include swig
   include graphviz
 
-  class filesmanager {
-    package { 'filesmanager_0.6.0':
-      provider => 'appdmg',
-      #source   => "http://filesmanager.info/downloads/files-1.0.4(913).dmg",
-      source   => "http://filesmanager.info/downloads/latest.dmg",
-    }
-  }
-  include filesmanager
-
   package {'lnav':
     ensure => present
-  }
-
-  class { 'intellij':
-    edition => 'ultimate',
-    version => '14.0.2'
   }
 
   package { 'tmux':
@@ -57,7 +43,6 @@ class people::webdizz::applications {
 
   include people::webdizz::applications::vim
   include people::webdizz::applications::emacs
-  include people::webdizz::applications::kdiff3
   include people::webdizz::applications::argouml
   include people::webdizz::applications::mysql
   include people::webdizz::applications::zsh

@@ -49,12 +49,28 @@ class people::webdizz::tools {
       provider => 'brewcask'
     }
 
-  package {'tsung':
-    ensure => '1.5.1',
+  package {'tsung':}
+
+  package {'otto':}
+
+  package {'gnuplot':}
+
+  package {'tree':}
+
+  package { 'xmind':
+    provider => 'brewcask'
   }
 
-  package {'gnuplot':
-    ensure => '5.0.0',
+  package { 'kindle':
+    provider => 'brewcask'
+  }
+
+  package { 'heroku-toolbelt':}
+
+  package { 'kdiff3': }
+
+  package { 'archi':
+    provider => 'brewcask'
   }
 
 }
