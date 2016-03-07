@@ -7,5 +7,7 @@ class people::webdizz::langs::erlang-lang {
     ]
   }
 
-  package {'elixir':}
+  package {'elixir':
+    ensure => '1.2.3'
+  }
 }
