@@ -60,9 +60,24 @@ class people::webdizz::tools {
   package { 'heroku-toolbelt':}
 
   package { 'kdiff3': }
+  package { 'docker': }
+  package { 'kubernetes-cli': }
+  package { 'ansible': }
 
   package { 'archi':
     provider => 'brewcask'
+  }
+
+  class { 'java': update_version => '79', }
+  android::version { '22':
+    options => [
+      'platform',
+      'add_on',
+      'tools',
+      'platform-tools',
+      'system_image',
+      'build-tools'
+    ]
   }
 
 }
