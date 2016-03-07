@@ -7,6 +7,8 @@ class people::webdizz {
     ensure  => directory
   }
 
+  include brewcask
+
   include people::webdizz::langs
   include people::webdizz::tools
   include people::webdizz::applications

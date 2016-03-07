@@ -1,5 +1,7 @@
-class people::webdizz::tools::vagrant-support {
+class people::webdizz::tools::hashicorp-support {
 
+  include packer
+  
   class { 'vagrant':
     version => '1.8.1'
   }
@@ -10,4 +12,6 @@ class people::webdizz::tools::vagrant-support {
   vagrant::plugin { 'landrush':
     prefix => false
   }
+
+  package {'otto':}
 }

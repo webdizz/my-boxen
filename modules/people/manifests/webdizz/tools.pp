@@ -1,11 +1,9 @@
 class people::webdizz::tools {
 
-  include people::webdizz::tools::gvm
-  include people::webdizz::tools::vagrant-support
-  include brewcask
-  include packer
-
-  package { 'hg':}
+  include people::webdizz::tools::sdkman-support
+  include people::webdizz::tools::hashicorp-support
+  include people::webdizz::tools::scm-support
+  include people::webdizz::tools::terminal-support
 
   package { 'smcfancontrol':
     provider => 'brewcask'
@@ -41,29 +39,8 @@ class people::webdizz::tools {
 
   package {'tsung':}
 
-  package {'otto':}
-
-  package {'gnuplot':}
-
-  package {'tree':}
-
-  package { 'xmind':
-    provider => 'brewcask'
-  }
-
-  package { 'kindle':
-    provider => 'brewcask'
-  }
-
-  package { 'heroku-toolbelt':}
-
-  package { 'kdiff3': }
-  package { 'docker': }
-  package { 'kubernetes-cli': }
-  package { 'ansible': }
-
-  package { 'archi':
-    provider => 'brewcask'
+  package {'gnuplot':
+    ensure => '5.0.3'
   }
 
 }

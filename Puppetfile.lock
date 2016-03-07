@@ -279,7 +279,7 @@ GITHUBTARBALL
     soapui (1.1.7)
 
 GITHUBTARBALL
-  remote: willmooreio/puppet-sdkman
+  remote: willmoorefyi/puppet-sdkman
   specs:
     sdkman (1.0.0)
 

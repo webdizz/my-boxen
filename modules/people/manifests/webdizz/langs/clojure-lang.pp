@@ -1,3 +1,5 @@
 class people::webdizz::langs::clojure-lang {
-  package {'leiningen':}
+  package {'leiningen':
+    ensure => '2.6.1'
+  }
 }
