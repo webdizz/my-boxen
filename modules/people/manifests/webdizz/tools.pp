@@ -4,11 +4,8 @@ class people::webdizz::tools {
   include people::webdizz::tools::vagrant-support
   include people::webdizz::tools::scala
   include brewcask
-
-  package { 'packer':
-    provider => 'brewcask'
-  }
-
+  include packer
+  
   package { 'hg':}
 
   package { 'smcfancontrol':
