@@ -1,13 +1,15 @@
 class people::webdizz::tools {
 
   include people::webdizz::tools::gvm
-  include people::webdizz::tools::vagrants
+  include people::webdizz::tools::vagrant-support
   include people::webdizz::tools::scala
   include brewcask
 
-  class {'packer':
-    version => '0.8.6'
+  package { 'packer':
+    provider => 'brewcask'
   }
+
+  package { 'hg':}
 
   package { 'smcfancontrol':
     provider => 'brewcask'
@@ -17,29 +19,29 @@ class people::webdizz::tools {
     provider => 'brewcask'
   }
 
-    package { 'slack':
-      provider => 'brewcask'
-    }
+  package { 'slack':
+    provider => 'brewcask'
+  }
 
-    package { 'viber':
-      provider => 'brewcask'
-    }
+  package { 'viber':
+    provider => 'brewcask'
+  }
 
-    package { 'wireshark':
-      provider => 'brewcask'
-    }
+  package { 'wireshark':
+    provider => 'brewcask'
+  }
 
-    package { 'djview':
-      provider => 'brewcask'
-    }
+  package { 'djview':
+    provider => 'brewcask'
+  }
 
-    package { 'joinme':
-      provider => 'brewcask'
-    }
+  package { 'joinme':
+    provider => 'brewcask'
+  }
 
-    package { 'turbo-boost-switcher':
-      provider => 'brewcask'
-    }
+  package { 'turbo-boost-switcher':
+    provider => 'brewcask'
+  }
 
   package {'tsung':}
 
@@ -66,18 +68,6 @@ class people::webdizz::tools {
 
   package { 'archi':
     provider => 'brewcask'
-  }
-
-  class { 'java': update_version => '79', }
-  android::version { '22':
-    options => [
-      'platform',
-      'add_on',
-      'tools',
-      'platform-tools',
-      'system_image',
-      'build-tools'
-    ]
   }
 
 }

@@ -1,4 +1,4 @@
-class people::webdizz::tools::vagrants {
+class people::webdizz::tools::vagrant-support {
 
   class { 'vagrant':
     version => '1.8.1'
@@ -7,5 +7,7 @@ class people::webdizz::tools::vagrants {
   vagrant::plugin { 'vagrant-omnibus':}
   vagrant::plugin { 'vagrant-berkshelf':}
   vagrant::plugin { 'vagrant-hosts':}
-  vagrant::plugin { 'landrush':}
+  vagrant::plugin { 'landrush':
+    prefix => false
+  }
 }
