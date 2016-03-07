@@ -2,10 +2,9 @@ class people::webdizz::tools {
 
   include people::webdizz::tools::gvm
   include people::webdizz::tools::vagrant-support
-  include people::webdizz::tools::scala
   include brewcask
   include packer
-  
+
   package { 'hg':}
 
   package { 'smcfancontrol':
