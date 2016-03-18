@@ -2,17 +2,21 @@ class people::webdizz::tools::terminal-support {
   include wget
 
   package {'tree':}
-  
+
   package { 'heroku-toolbelt':
     ensure => '3.42.38'
   }
 
   package { 'docker':
-    ensure => '1.10.2'
+    ensure => '1.10.3'
   }
 
   package { 'kubernetes-cli':
-    ensure => '1.1.8'
+    ensure => '1.2.0'
+  }
+  
+  package { 'openshift-cli':
+    ensure => '1.1.4'
   }
 
   package { 'ansible':
@@ -43,4 +47,9 @@ class people::webdizz::tools::terminal-support {
   package {'ssh-copy-id':
     ensure => installed,
   }
+
+  class plant-uml {
+    package {'boxen/brews/plantuml':}
+  }
+  include plant-uml
 }
