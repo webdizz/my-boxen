@@ -4,7 +4,7 @@ class people::webdizz::tools::terminal-support {
   package {'tree':}
 
   package { 'heroku-toolbelt':
-    ensure => '3.42.38'
+    ensure => '3.42.44'
   }
 
   package { 'docker':
@@ -14,7 +14,7 @@ class people::webdizz::tools::terminal-support {
   package { 'kubernetes-cli':
     ensure => '1.2.0'
   }
-  
+
   package { 'openshift-cli':
     ensure => '1.1.4'
   }
