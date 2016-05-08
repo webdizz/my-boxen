@@ -4,10 +4,10 @@ class people::webdizz::applications::vim-support {
 
   class vim {
     package { 'vim':
-      ensure => '7.4.1655',
+      ensure => '7.4.1724',
     }
   }
-  
+
   include vim::pathogen
 
   repository { "${home}/.vim/bundle/Vundle.vim":
