@@ -1,11 +1,11 @@
 class people::webdizz::langs::scala-lang {
 
   package {'sbt':
-    ensure => '0.13.11'
+    ensure => '0.13.12'
   }
 
   package { 'typesafe-activator':
-    ensure => installed,
+    ensure => '1.3.10',
   }
-  
+
 }

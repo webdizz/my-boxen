@@ -47,11 +47,11 @@ github "go",          "2.1.0"
 github "homebrew",    "2.0.2"
 github "hub",         "1.4.1"
 github "inifile",     "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
-github "nodejs",      "5.0.0"
+github "nodejs",      "5.0.7"
 github "openssl",     "1.0.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.4.1"
-github "ruby",        "8.5.4"
+github "ruby",        "8.5.6"
 github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
@@ -76,7 +76,7 @@ github "property_list_key",  "0.1.0"
 github 'iterm2',             '1.2.5'
 github 'firefox',            '1.2.3'
 github 'jmeter',             '0.1.5'#, :repo => 'webdizz/puppet-jmeter'
-github 'zsh',                '1.0.0'
+github 'zsh',                '1.0.1'
 github 'zshgitprompt',       '1.0.2'
 github 'vim',                '1.0.8', :repo => 'mavcunha/puppet-vim'
 github 'sequel_pro',         '1.0.1'

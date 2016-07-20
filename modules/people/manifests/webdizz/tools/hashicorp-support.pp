@@ -1,9 +1,9 @@
 class people::webdizz::tools::hashicorp-support {
 
   include packer
-  
+
   class { 'vagrant':
-    version => '1.8.1'
+    version => '1.8.5'
   }
 
   vagrant::plugin { 'vagrant-omnibus':}

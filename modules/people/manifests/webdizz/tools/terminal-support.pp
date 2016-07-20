@@ -4,23 +4,23 @@ class people::webdizz::tools::terminal-support {
   package {'tree':}
 
   package { 'heroku-toolbelt':
-    ensure => '3.42.44'
+    ensure => '3.43.5'
   }
 
   package { 'docker':
-    ensure => '1.10.3'
+    ensure => '1.11.2'
   }
 
   package { 'kubernetes-cli':
-    ensure => '1.2.0'
+    ensure => '1.3.0'
   }
 
   package { 'openshift-cli':
-    ensure => '1.1.4'
+    ensure => '1.2.0'
   }
 
-  package { 'ansible':
-    ensure => '2.0.1.0'
+  package { 'ansible19':
+    ensure => present
   }
 
   package { "pstree":
