@@ -7,9 +7,17 @@ class people::webdizz::tools::terminal-support {
     ensure => '3.43.5'
   }
 
-  package { 'docker':
-    ensure => '1.11.2'
+  # package { 'docker':
+  #   ensure => '1.11.2'
+  # }
+
+  class docker-for-mac($version = '1.12.0') {
+    package { 'docker-for-mac':
+      provider => 'appdmg',
+      source   => "https://download.docker.com/mac/beta/Docker.dmg",
+    }
   }
+  include docker-for-mac
 
   package { 'kubernetes-cli':
     ensure => '1.3.0'
