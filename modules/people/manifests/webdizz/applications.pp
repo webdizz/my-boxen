@@ -47,4 +47,9 @@ class people::webdizz::applications {
     provider => 'brewcask'
   }
 
+  package { 'postico':
+    ensure => installed,
+    provider => 'brewcask'
+  }
+
 }
