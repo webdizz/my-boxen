@@ -35,7 +35,7 @@ class people::webdizz::applications {
   }
 
   package { 'xmind':
-    ensure => '3.6.1',
+    ensure => '3.6.5.1',
     provider => 'brewcask'
   }
 
