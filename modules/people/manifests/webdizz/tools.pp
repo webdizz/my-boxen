@@ -40,7 +40,7 @@ class people::webdizz::tools {
   package {'tsung':}
 
   package {'gnuplot':
-    ensure => '5.0.3'
+    ensure => '5.0.4'
   }
 
 }
