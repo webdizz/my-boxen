@@ -26,6 +26,12 @@ class people::webdizz::applications {
   include people::webdizz::applications::iterm2
   include people::webdizz::applications::atom
 
+  class virtualbox (
+    $version = '5.1.2',
+    $patch_level = '108956'
+  ){}
+  include virtualbox
+
   package {'lnav':
     ensure => present
   }
