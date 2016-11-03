@@ -48,7 +48,7 @@ class people::webdizz::dotfiles {
     target  => "${dotfiles}/emacs/prelude-modules.el",
     require => Repository[$dotfiles],
   }
-  
+
   file { "${home}/.emacs.d/personal/packages.el":
     ensure  => link,
     mode    => '0644',
@@ -110,6 +110,13 @@ class people::webdizz::dotfiles {
     ensure  => link,
     mode    => '0644',
     target  => "${dotfiles}/.slate",
+    require => Repository[$dotfiles],
+  }
+
+  file { "${home}/.karabiner.d/configuration/karabiner.json":
+    ensure  => link,
+    mode    => '0644',
+    target  => "${dotfiles}/karabiner.d/configuration/karabiner.json",
     require => Repository[$dotfiles],
   }
 
