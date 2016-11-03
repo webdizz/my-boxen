@@ -4,7 +4,7 @@ class people::webdizz::applications::vim-support {
 
   class vim {
     package { 'vim':
-      ensure => '7.4.2334',
+      ensure => '8.0.0055',
     }
   }
 

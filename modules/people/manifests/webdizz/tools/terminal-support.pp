@@ -4,7 +4,7 @@ class people::webdizz::tools::terminal-support {
   package {'tree':}
 
   package { 'heroku-toolbelt':
-    ensure => '3.43.10'
+    ensure => '3.43.13'
   }
 
   class docker-for-mac($version = '1.12.0') {
@@ -16,11 +16,11 @@ class people::webdizz::tools::terminal-support {
   include docker-for-mac
 
   package { 'kubernetes-cli':
-    ensure => '1.3.6'
+    ensure => '1.4.5'
   }
 
   package { 'openshift-cli':
-    ensure => '1.2.1'
+    ensure => '1.3.1'
   }
 
   package { 'ansible19':
@@ -40,7 +40,7 @@ class people::webdizz::tools::terminal-support {
   }
 
   package { 'tmux':
-    ensure => '2.2',
+    ensure => '2.3',
   }
 
   package { 'aspell':
@@ -50,6 +50,10 @@ class people::webdizz::tools::terminal-support {
 
   package {'ssh-copy-id':
     ensure => '7.3p1',
+  }
+
+  package { 'mas':
+    ensure => '1.2.0',
   }
 
   class plant-uml {

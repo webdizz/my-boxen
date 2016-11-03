@@ -80,10 +80,8 @@ class people::webdizz::os::preferences {
 
   karabiner::enable { 'remap.caps_lock_to_hyper':}
 
-  include seil
-  # add seil to login items:
-  include seil::login_item
-
-  seil::map { 'capslock': value => 80 }
+  package { 'karabiner-elements':
+    provider => 'brewcask'
+  }
 
 }
