@@ -53,7 +53,7 @@ class people::webdizz::tools::terminal-support {
   }
 
   package { 'mas':
-    ensure => '1.2.0',
+    ensure => '1.3.1',
   }
 
   class plant-uml {
