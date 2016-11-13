@@ -3,7 +3,7 @@ class people::webdizz::tools::hashicorp-support {
   include packer
 
   class { 'vagrant':
-    version => '1.8.5'
+    version => '1.8.6'
   }
 
   vagrant::plugin { 'vagrant-omnibus':}
