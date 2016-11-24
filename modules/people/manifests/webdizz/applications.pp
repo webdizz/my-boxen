@@ -27,7 +27,7 @@ class people::webdizz::applications {
   include people::webdizz::applications::atom
 
   include virtualbox
-  
+
   package {'lnav':
     ensure => present
   }
@@ -50,6 +50,11 @@ class people::webdizz::applications {
   }
 
   package { 'postico':
+    ensure => installed,
+    provider => 'brewcask'
+  }
+
+  package { 'visual-studio-code':
     ensure => installed,
     provider => 'brewcask'
   }
