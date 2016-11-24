@@ -13,3 +13,8 @@ ruby::version::alias:
 
 # See https://github.com/boxen/puppet-java for docs
 java::update_version: 55
+
+virtualbox::version: "5.1.10"
+virtualbox::patchlevel: "112026"
+
+nodejs::build::ensure: "v2.4.0"
