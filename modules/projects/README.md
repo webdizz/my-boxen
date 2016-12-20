@@ -8,7 +8,7 @@ class projects::trollin {
   include icu4c
   include phantomjs
 
-  boxen::project { 'trollin':
+  boxen::project { 'trollin':аг
     dotenv        => true,
     elasticsearch => true,
     mysql         => true,
