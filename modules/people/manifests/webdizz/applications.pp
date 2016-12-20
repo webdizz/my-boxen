@@ -8,9 +8,7 @@ class people::webdizz::applications {
   include googledrive
   include shortcat
   include firefox
-  # include jmeter
   include sequel_pro
-  include shiftit
   include xquartz
   include vmware_fusion
   include slate
