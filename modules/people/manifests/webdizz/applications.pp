@@ -8,7 +8,6 @@ class people::webdizz::applications {
   include googledrive
   include shortcat
   include firefox
-  include sequel_pro
   include xquartz
   include vmware_fusion
   include slate
@@ -35,11 +34,15 @@ class people::webdizz::applications {
   }
 
   package { 'xmind':
-    ensure => '3.6.5.1',
+    ensure => '8',
     provider => 'brewcask'
   }
 
   package { 'kindle':
+    provider => 'brewcask'
+  }
+
+  package { 'sequel-pro':
     provider => 'brewcask'
   }
 

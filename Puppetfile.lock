@@ -149,11 +149,6 @@ GITHUBTARBALL
     ruby (8.5.6)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sequel_pro
-  specs:
-    sequel_pro (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-shortcat
   specs:
     shortcat (1.1.0)
@@ -313,7 +308,6 @@ DEPENDENCIES
   repository (= 2.4.1)
   ruby (= 8.5.6)
   sdkman (= 1.0.0)
-  sequel_pro (= 1.0.1)
   shortcat (= 1.1.0)
   skype (= 1.1.0)
   slate (= 1.0.1)

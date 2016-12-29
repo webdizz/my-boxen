@@ -3,7 +3,7 @@ class people::webdizz::applications::vim-support {
   $home = "/Users/${::boxen_user}"
 
   package { 'vim':
-    ensure => '8.0.0055',
+    ensure => '8.0.0134',
     install_options => ['--with-override-system-vi'],
   }
 

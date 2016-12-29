@@ -16,11 +16,11 @@ class people::webdizz::tools::terminal-support {
   include docker-for-mac
 
   package { 'kubernetes-cli':
-    ensure => '1.4.5'
+    ensure => '1.5.1'
   }
 
   package { 'openshift-cli':
-    ensure => '1.3.1'
+    ensure => '1.3.2'
   }
 
   package { 'ansible19':
@@ -40,7 +40,7 @@ class people::webdizz::tools::terminal-support {
   }
 
   package { 'tmux':
-    ensure => '2.3',
+    ensure => '2.3_2',
   }
 
   package { 'aspell':
@@ -56,8 +56,8 @@ class people::webdizz::tools::terminal-support {
     ensure => '1.3.1',
   }
 
-  class plant-uml {
-    package {'boxen/brews/plantuml':}
+  package { 'plantuml':
+    ensure => installed,
   }
-  include plant-uml
+  
 }
