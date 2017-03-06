@@ -4,10 +4,10 @@ class people::webdizz::tools::terminal-support {
   package {'tree':}
 
   package { 'heroku-toolbelt':
-    ensure => '3.43.13'
+    ensure => '5.6.28-2643c0a'
   }
 
-  class docker-for-mac($version = '1.12.0') {
+  class docker-for-mac($version = '17.03.0') {
     package { 'docker-for-mac':
       provider => 'appdmg',
       source   => "https://download.docker.com/mac/beta/Docker.dmg",
@@ -16,11 +16,11 @@ class people::webdizz::tools::terminal-support {
   include docker-for-mac
 
   package { 'kubernetes-cli':
-    ensure => '1.5.1'
+    ensure => '1.5.3'
   }
 
   package { 'openshift-cli':
-    ensure => '1.3.2'
+    ensure => '1.4.1'
   }
 
   package { 'ansible19':
@@ -56,8 +56,8 @@ class people::webdizz::tools::terminal-support {
     ensure => '1.3.1',
   }
 
-  package { 'plantuml':
-    ensure => installed,
-  }
-  
+  # package { 'plantuml':
+  #   ensure => installed,
+  # }
+
 }

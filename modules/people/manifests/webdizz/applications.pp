@@ -34,7 +34,7 @@ class people::webdizz::applications {
   }
 
   package { 'xmind':
-    ensure => '8',
+    ensure => '8-update1',
     provider => 'brewcask'
   }
 
@@ -56,6 +56,11 @@ class people::webdizz::applications {
   }
 
   package { 'visual-studio-code':
+    ensure => installed,
+    provider => 'brewcask'
+  }
+
+  package { 'soapui':
     ensure => installed,
     provider => 'brewcask'
   }

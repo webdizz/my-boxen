@@ -1,7 +1,7 @@
 class people::webdizz::tools::hashicorp-support {
 
   class {'packer':
-    version => '0.12.0'
+    version => '0.12.3'
   }
 
   class { 'vagrant':

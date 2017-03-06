@@ -8,13 +8,13 @@
 # heart's content.
 
 # See https://github.com/boxen/puppet-ruby for docs
-ruby::version::alias:
-  2.0.0: 2.0.0-p353
+# ruby::version::alias:
+#   2.0.0: 2.0.0-p353
 
 # See https://github.com/boxen/puppet-java for docs
 java::update_version: 55
 
-virtualbox::version: "5.1.10"
-virtualbox::patchlevel: "112026"
+virtualbox::version: "5.1.14"
+virtualbox::patchlevel: "112924"
 
 nodejs::build::ensure: "v2.4.0"

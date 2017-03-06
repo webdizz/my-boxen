@@ -2,6 +2,7 @@ class people::webdizz::langs::ruby {
 
   $ruby2 = '2.3.0'
   ruby::version { $ruby2:}
+  ruby::version { '2.0.0-p353':}
 
   ruby_gem { "teamocil":
     gem     => 'teamocil',
@@ -12,7 +13,7 @@ class people::webdizz::langs::ruby {
     gem     => 'travis',
     ruby_version    => $ruby2,
   }
-  
+
   ruby_gem { "rsense":
     gem     => 'rsense',
     ruby_version    => $ruby2,

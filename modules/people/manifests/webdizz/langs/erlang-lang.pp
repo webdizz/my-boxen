@@ -1,7 +1,7 @@
 class people::webdizz::langs::erlang-lang {
 
   package {'erlang':
-    ensure => '19.2',
+    ensure => '19.2.3',
     install_options => [
       '--with-native-libs',
       '--with-fop'
@@ -9,6 +9,6 @@ class people::webdizz::langs::erlang-lang {
   }
 
   package {'elixir':
-    ensure => '1.3.4'
+    ensure => '1.4.2'
   }
 }

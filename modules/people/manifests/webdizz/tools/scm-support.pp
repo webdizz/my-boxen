@@ -1,7 +1,9 @@
 class people::webdizz::tools::scm-support {
   package { 'hg':
-    ensure => '3.7.2'
+    ensure => '4.1.1'
   }
 
-  package { 'kdiff3': }
+  package { 'kdiff3':
+    provider => 'brewcask'
+  }
 }

@@ -113,7 +113,7 @@ class people::webdizz::dotfiles {
     require => Repository[$dotfiles],
   }
 
-  file { "${home}/.karabiner.d/configuration/karabiner.json":
+  file { "${home}/.config/karabiner/karabiner.json":
     ensure  => link,
     mode    => '0644',
     target  => "${dotfiles}/karabiner.d/configuration/karabiner.json",
