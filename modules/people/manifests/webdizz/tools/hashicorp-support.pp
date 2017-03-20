@@ -5,7 +5,7 @@ class people::webdizz::tools::hashicorp-support {
   }
 
   class { 'vagrant':
-    version => '1.9.1'
+    version => '1.9.2'
   }
 
   vagrant::plugin { 'vagrant-omnibus':}
