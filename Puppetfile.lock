@@ -159,11 +159,6 @@ GITHUBTARBALL
     skype (1.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-slate
-  specs:
-    slate (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -310,7 +305,6 @@ DEPENDENCIES
   sdkman (= 1.0.0)
   shortcat (= 1.1.0)
   skype (= 1.1.0)
-  slate (= 1.0.1)
   soapui (= 1.1.7)
   stdlib (= 4.7.0)
   sudo (= 1.0.0)

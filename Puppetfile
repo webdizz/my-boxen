@@ -81,7 +81,6 @@ github 'zshgitprompt',       '1.0.2'
 github 'vim',                '1.0.9', :repo => 'webdizz/puppet-vim'
 github 'packer',             '1.3.4', :repo => 'webdizz/puppet-packer'
 github 'vmware_fusion',      '1.2.0'
-github 'slate',              '1.0.1'
 github 'fonts',              '0.0.3'
 github "gvm",                "1.0.1", :repo => "Spantree/puppet-gvm"
 github "oracle_sqldeveloper","0.0.8", :repo => "danmikita/puppet-oracle-sqldeveloper"

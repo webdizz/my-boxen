@@ -10,7 +10,6 @@ class people::webdizz::applications {
   include firefox
   include xquartz
   include vmware_fusion
-  include slate
   include oracle_sqldeveloper
   include swig
   include graphviz
@@ -39,6 +38,10 @@ class people::webdizz::applications {
   }
 
   package { 'kindle':
+    provider => 'brewcask'
+  }
+
+  package { 'mattr-slate':
     provider => 'brewcask'
   }
 
