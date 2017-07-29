@@ -12,6 +12,8 @@ class people::webdizz::applications::atom {
     atom::package { 'language-docker': }
     atom::package { 'pretty-json': }
     atom::package { 'auto-indent': }
+    atom::package { 'hyperclick': }
+    atom::package { 'intentions': }
 
     atom::package { 'language-plantuml': }
     atom::package { 'plantuml': }

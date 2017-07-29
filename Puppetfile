@@ -41,7 +41,7 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 github "brewcask",    "0.0.10"
 github "dnsmasq",     "2.0.2"
 github "foreman",     "1.2.0"
-github "gcc",         "3.0.2"
+github "gcc",         "3.0.3"
 github "git",         "2.13.0"
 github "go",          "2.1.0"
 github "homebrew",    "2.1.0"
@@ -51,7 +51,7 @@ github "nodejs",      "5.0.9"
 github "openssl",     "1.0.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.4.1"
-github "ruby",        "8.5.6"
+github "ruby",        "8.5.7"
 github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
@@ -64,7 +64,6 @@ github "vagrant",            "3.3.4"
 github "virtualbox",         "1.0.14", :repo => 'webdizz/puppet-virtualbox'
 github "intellij",           "1.5.1"
 github "chrome",             "1.2.0"
-github "wget",               "1.0.1"
 github "dropbox",            "1.4.1", :repo => 'drewrothstein/puppet-dropbox'
 github "osx",                "2.8.0"
 github "cyberduck",          "1.1.4", :repo => "johnlauck/puppet-cyberduck"
@@ -90,6 +89,6 @@ github 'graphviz',           '1.0.0'
 github 'soapui',             '1.1.7', :repo => 'webdizz/puppet-soapui'
 github 'karabiner',          '1.0.8', :repo => 'webdizz/puppet-karabiner'
 github 'atom',               '1.3.0'
-github 'sdkman',             '1.0.0', :repo => 'willmoorefyi/puppet-sdkman'
+github 'sdkman',             '1.1.0', :repo => 'double16/puppet-sdkman'
 github 'java',            '1.8.4'
 github 'android',            '1.6.0'

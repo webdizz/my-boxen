@@ -5,7 +5,7 @@ class people::webdizz::langs::js-lang {
 
   # Set the global default node (auto-installs it if it can)
   class { 'nodejs::global':
-    version => '5.10.1'
+    version => '6.5.0'
   }
 
   # ensure a certain node version is used in a dir

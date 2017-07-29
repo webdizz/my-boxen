@@ -1,10 +1,13 @@
 class people::webdizz::tools::terminal-support {
-  include wget
+
+  package { 'wget':
+    # provider => 'brewcask'
+  }
 
   package {'tree':}
 
   package { 'heroku-toolbelt':
-    ensure => '5.6.28-2643c0a'
+    ensure => '6.13.5'
   }
 
   class docker-for-mac($version = '17.03.0') {
@@ -16,11 +19,11 @@ class people::webdizz::tools::terminal-support {
   include docker-for-mac
 
   package { 'kubernetes-cli':
-    ensure => '1.5.3'
+    ensure => '1.7.1'
   }
 
   package { 'openshift-cli':
-    ensure => '1.4.1'
+    ensure => '1.5.1'
   }
 
   package { 'ansible19':
@@ -36,11 +39,11 @@ class people::webdizz::tools::terminal-support {
   }
 
   package { "mtr":
-    ensure => '0.87',
+    ensure => '0.92',
   }
 
   package { 'tmux':
-    ensure => '2.3_2',
+    ensure => '2.5',
   }
 
   package { 'aspell':

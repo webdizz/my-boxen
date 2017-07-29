@@ -33,7 +33,7 @@ class people::webdizz::applications {
   }
 
   package { 'xmind':
-    ensure => '8-update1',
+    ensure => '8-update2',
     provider => 'brewcask'
   }
 
