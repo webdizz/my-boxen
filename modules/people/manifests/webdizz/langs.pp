@@ -9,4 +9,5 @@ class people::webdizz::langs {
   include people::webdizz::langs::scala-lang
   include people::webdizz::langs::elm-lang
   include people::webdizz::langs::js-lang
+  include people::webdizz::langs::python-lang
 }

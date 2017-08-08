@@ -60,7 +60,7 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "skype",              "1.1.0"
-github "vagrant",            "3.3.4"
+github "vagrant",            "3.3.5", :repo => 'daptiv/puppet-vagrant'
 github "virtualbox",         "1.0.14", :repo => 'webdizz/puppet-virtualbox'
 github "intellij",           "1.5.1"
 github "chrome",             "1.2.0"
