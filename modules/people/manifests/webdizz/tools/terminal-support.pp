@@ -6,28 +6,8 @@ class people::webdizz::tools::terminal-support {
 
   package {'tree':}
 
-  package { 'heroku-toolbelt':
-    ensure => '6.13.5'
-  }
-
-  class docker-for-mac($version = '17.03.0') {
-    package { 'docker-for-mac':
-      provider => 'appdmg',
-      source   => "https://download.docker.com/mac/beta/Docker.dmg",
-    }
-  }
-  include docker-for-mac
-
-  package { 'kubernetes-cli':
-    ensure => '1.7.1'
-  }
-
-  package { 'openshift-cli':
-    ensure => '1.5.1'
-  }
-
-  package { 'ansible19':
-    ensure => present
+  package { 'ansible':
+    ensure => '2.3.2.0'
   }
 
   package { "pstree":
@@ -52,7 +32,7 @@ class people::webdizz::tools::terminal-support {
   }
 
   package {'ssh-copy-id':
-    ensure => '7.3p1',
+    ensure => '7.5p1',
   }
 
   package { 'mas':

@@ -1,11 +1,11 @@
 class people::webdizz::tools::hashicorp-support {
 
   class {'packer':
-    version => '1.0.3'
+    version => '1.0.4'
   }
 
   class { 'vagrant':
-    version => '1.9.7'
+    version => '1.9.8'
   }
 
   vagrant::plugin { 'vagrant-omnibus':}

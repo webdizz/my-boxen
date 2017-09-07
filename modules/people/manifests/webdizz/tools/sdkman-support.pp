@@ -3,5 +3,5 @@ class people::webdizz::tools::sdkman-support {
 
   sdkman::groovy { '2.4.12': }
 
-  sdkman::gradle { '4.1-rc-1': }
+  sdkman::gradle { '4.1': }
 }

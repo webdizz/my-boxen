@@ -4,6 +4,7 @@ class people::webdizz::tools {
   include people::webdizz::tools::hashicorp-support
   include people::webdizz::tools::scm-support
   include people::webdizz::tools::terminal-support
+  include people::webdizz::tools::cloud-support
 
   package { 'smcfancontrol':
     provider => 'brewcask'
@@ -40,7 +41,7 @@ class people::webdizz::tools {
   package {'tsung':}
 
   package {'gnuplot':
-    ensure => '5.0.5'
+    ensure => '5.2.0'
   }
 
 }
