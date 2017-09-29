@@ -25,7 +25,7 @@ class people::webdizz::applications {
   include virtualbox
 
   package {'lnav':
-    ensure => present
+    ensure => '0.8.2'
   }
 
   package { 'reattach-to-user-namespace':
@@ -33,7 +33,7 @@ class people::webdizz::applications {
   }
 
   package { 'xmind':
-    ensure => '8-update2',
+    ensure => '8-update4',
     provider => 'brewcask'
   }
 
