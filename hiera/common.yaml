@@ -14,7 +14,6 @@
 # See https://github.com/boxen/puppet-java for docs
 java::update_version: 55
 
-virtualbox::version: "5.1.26"
-virtualbox::patchlevel: "117224"
-
+virtualbox::version: "5.1.28"
+virtualbox::patchlevel: "117968"
 nodejs::build::ensure: "v2.4.0"
